@@ -17,3 +17,5 @@ select的缺点：select需要将监听的描述符从用户态拷贝到内核�
 epoll模型是前两者的加强。
 有关于epoll原理的理解，参考[这篇文章](https://www.zhihu.com/search?type=content&q=epoll)。
 
+[浅析epoll的水平触发和边缘触发，以及边缘触发为什么要使用非阻塞IO](https://blog.csdn.net/qq_34793133/article/details/82055915)
+
